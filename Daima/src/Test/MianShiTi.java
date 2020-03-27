@@ -1,7 +1,7 @@
 package Test;
 
 import java.util.Stack;
-
+//翻转一个字符串
 public class MianShiTi {
     public static void main(String[] args) {
         String str="ABC123ABC";
