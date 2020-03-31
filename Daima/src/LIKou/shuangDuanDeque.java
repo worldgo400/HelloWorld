@@ -24,7 +24,7 @@ public class shuangDuanDeque {
            if (isFull()) {
                return false;
            }
-           front = (front - 1 + capacity) / capacity;
+           front = (front - 1 + capacity) % capacity;
            arr[front] = value;
            return true;
        }
@@ -37,7 +37,7 @@ public class shuangDuanDeque {
                return false;
            }
            arr[rear] = value;
-           rear = (rear + 1) / capacity;
+           rear = (rear + 1) %capacity;
            return true;
        }
 
