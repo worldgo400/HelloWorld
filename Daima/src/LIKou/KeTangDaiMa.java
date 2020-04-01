@@ -12,7 +12,7 @@ import java.util.List;
         }
     }
 
-    public class InterviewTree {
+     class InterviewTree {
         public List<Integer> preOrderTraversal(treeNode root) {
             List<Integer> result = new ArrayList<>();
             if (root == null) {
