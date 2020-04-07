@@ -1,6 +1,8 @@
 package LinkedList02;
 
 public class middleNode02 {
+//    给定一个带有头结点的链表，返回链表的中间节点，
+//    如果有两个中间节点，则返回第二个
     static class ListNode{
         int val;
         ListNode next;
