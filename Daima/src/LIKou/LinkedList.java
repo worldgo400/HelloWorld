@@ -1,7 +1,13 @@
 package LIKou;
 
 public class LinkedList {
-      public static class ListNode{
+    public void add(int i) {
+    }
+
+    public void remove(int i) {
+    }
+
+    public static class ListNode{
         int val;
         ListNode next;
 
