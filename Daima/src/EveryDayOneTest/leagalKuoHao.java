@@ -1,6 +1,6 @@
 package EveryDayOneTest;
 
-public class legalKuoHao {
+public class leagalKuoHao {
     public static void main(String[] args) {
     }
     public boolean chkParenthesis(String A, int n) {
