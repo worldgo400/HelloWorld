@@ -33,6 +33,9 @@ public class Test0730 {
          return null;
      }
 
+    public Test0730() {
+    }
+
     private int size(ListNode headA) {
             int size=0;
             ListNode cur=headA;
